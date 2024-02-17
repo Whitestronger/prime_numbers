@@ -4,6 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # python -m uvicorn main:app --reload
+# http://127.0.0.1:8000/B098LG3N6R <- put any amazon product ASIN here
 
 app = FastAPI()
 
